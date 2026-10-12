@@ -7,7 +7,7 @@ Solo recursos originales o con licencia compatible con uso comercial, registrado
 | Recurso | Ubicación | Origen |
 |---|---|---|
 | Isotipo de Nexrive (letra N en cuadro violeta) | `src/favicon.svg` y cabecera de `src/template.html` | SVG propio, creado para este sitio el 12-oct-2026 |
-| Iconos de producto (medidor, comunidad, ubicación) | `src/template.html` | SVG propio |
+| Iconos de producto (medidor, comunidad) | `src/template.html` | SVG propio |
 | Icono de menú | `src/template.html` | SVG propio |
 
 ## Recursos de terceros

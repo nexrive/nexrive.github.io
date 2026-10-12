@@ -131,7 +131,7 @@ svg { display: block; }
 .section-alt { background: var(--surface-deep); border-block: 1px solid var(--line); }
 .section-lead { max-width: 62ch; margin-top: var(--space-2); color: var(--text-muted); font-size: var(--step-1); }
 
-.cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-3); margin-top: var(--space-4); }
+.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3); margin-top: var(--space-4); }
 .card {
   display: flex; flex-direction: column; gap: var(--space-2);
   padding: var(--space-3); border: 1px solid var(--line); border-radius: var(--radius);
@@ -160,13 +160,13 @@ svg { display: block; }
 .link { color: var(--brand-bright); font-weight: 600; text-underline-offset: 0.25em; }
 .link:hover { color: #A692FF; }
 
-.flow { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-3); margin-top: var(--space-4); }
+.flow { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3); margin-top: var(--space-4); }
 .flow li { padding: var(--space-3); border-left: 2px solid var(--brand-bright); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; background: var(--surface); }
 .flow-path { display: block; margin-bottom: var(--space-1); font-size: var(--step-1); font-weight: 600; }
 .flow p { color: var(--text-muted); }
 .note { max-width: 62ch; margin-top: var(--space-3); color: var(--text-muted); font-size: var(--step--1); }
 
-.timeline { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-3); margin-top: var(--space-4); }
+.timeline { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-3); margin-top: var(--space-4); }
 .timeline li { padding-top: var(--space-2); border-top: 2px solid var(--line); }
 .timeline li:first-child { border-top-color: var(--brand-bright); }
 .timeline h3 { margin-block: var(--space-1); }
@@ -196,7 +196,7 @@ svg { display: block; }
 
 @media (max-width: 900px) {
   .cards, .flow { grid-template-columns: 1fr; }
-  .timeline { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .timeline { grid-template-columns: 1fr; }
   .split { grid-template-columns: 1fr; gap: var(--space-2); }
 }
 
@@ -211,7 +211,7 @@ svg { display: block; }
   .nav.is-open { display: flex; }
   .nav a { padding: 0.875rem 0.25rem; font-size: var(--step-0); border-bottom: 1px solid var(--line); }
   .nav .lang { margin-top: var(--space-2); text-align: center; border-bottom: 1px solid var(--line); }
-  .facts, .grid, .timeline { grid-template-columns: 1fr; }
+  .facts, .grid { grid-template-columns: 1fr; }
   .facts { gap: var(--space-2); }
   .actions .btn { flex: 1 1 100%; }
 }

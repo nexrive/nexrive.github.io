@@ -1,7 +1,7 @@
 # AGENTS.md - Nexrive Web
 
 ## Misión
-Sitio corporativo estático de Nexrive (empresa y productos Volta, Avanti, Meetings), en español e inglés, publicado en GitHub Pages: https://nexrive.github.io
+Sitio corporativo estático de Nexrive (empresa y productos Volta y Avanti), en español e inglés, publicado en GitHub Pages: https://nexrive.github.io
 
 ## Fuente de verdad (en orden)
 1. `docs/PRODUCT_SPEC.md` 2. `docs/ARCHITECTURE.md` 3. `docs/UI_UX.md` 4. `docs/PROJECT_MAP.md` 5. `docs/STATUS.md`

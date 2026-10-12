@@ -3,7 +3,7 @@
     "lang": "es",
     "og_locale": "es_CL",
     "title": "Nexrive - Tecnología para quienes viven sus autos",
-    "description": "Nexrive crea aplicaciones conectadas para dueños y entusiastas de autos: Volta para el mantenimiento, Avanti para la comunidad y Meetings para los eventos."
+    "description": "Nexrive crea aplicaciones conectadas para dueños y entusiastas de autos: Volta para el mantenimiento y Avanti para la comunidad."
   },
   "lang": {
     "alt_code": "en",
@@ -31,10 +31,10 @@
     "eyebrow": "Ecosistema automotriz",
     "title_a": "Tecnología para quienes",
     "title_b": "viven sus autos",
-    "lead": "Nexrive construye aplicaciones que se conectan entre sí para acompañar toda la vida de un vehículo: su mantenimiento, su historia, su comunidad y sus encuentros.",
+    "lead": "Nexrive construye aplicaciones que se conectan entre sí para acompañar toda la vida de un vehículo: su mantenimiento, su historia y su comunidad.",
     "cta_products": "Ver productos",
     "cta_volta": "Volta en Google Play",
-    "fact1_value": "3",
+    "fact1_value": "2",
     "fact1_label": "productos en un mismo ecosistema",
     "fact2_value": "1",
     "fact2_label": "aplicación ya publicada en Google Play",
@@ -43,8 +43,8 @@
   },
   "products": {
     "eyebrow": "Productos",
-    "title": "Tres aplicaciones, un mismo vehículo",
-    "lead": "Cada producto resuelve un problema concreto por sí solo y gana valor cuando se usa junto a los demás.",
+    "title": "Dos aplicaciones, un mismo vehículo",
+    "lead": "Cada producto resuelve un problema concreto por sí solo y gana valor cuando se usa junto al otro.",
     "volta": {
       "name": "Nexrive Volta",
       "tagline": "Tu auto, siempre al día",
@@ -61,27 +61,17 @@
       "f1": "Perfil propio para cada vehículo y sus modificaciones",
       "f2": "Tarjeta del proyecto lista para compartir",
       "f3": "Comunidad organizada por estilos e intereses"
-    },
-    "meetings": {
-      "name": "Nexrive Meetings",
-      "tagline": "Encuentros de autos cerca de ti",
-      "body": "La forma simple de descubrir, organizar y recordar eventos automotrices, desde una junta local hasta una exposición.",
-      "f1": "Eventos ubicados en el mapa",
-      "f2": "Confirmación de asistencia",
-      "f3": "Fotos del encuentro en un solo lugar"
     }
   },
   "ecosystem": {
     "eyebrow": "Ecosistema",
-    "title": "Cada aplicación alimenta a las otras",
+    "title": "Cada aplicación alimenta a la otra",
     "lead": "La visión de Nexrive es que una sola cuenta reúna lo que hoy vive disperso en cuadernos, chats y redes generales.",
     "c1_path": "Volta a Avanti",
     "c1_body": "El mantenimiento registrado en Volta respalda el perfil del vehículo en la comunidad con un historial verificable.",
-    "c2_path": "Avanti a Meetings",
-    "c2_body": "Desde el perfil de un proyecto se puede convocar o sumarse a un encuentro con las personas que ya lo siguen.",
-    "c3_path": "Meetings a Volta",
-    "c3_body": "Lo vivido en un evento vuelve al registro del vehículo: el viaje, los kilómetros y las fotos del día.",
-    "note": "Estas conexiones describen la dirección del producto y se irán activando a medida que Avanti y Meetings se publiquen."
+    "c2_path": "Avanti a Volta",
+    "c2_body": "Una modificación documentada en la comunidad se puede llevar al registro del vehículo para que el historial quede completo.",
+    "note": "Estas conexiones describen la dirección del producto y se irán activando a medida que Avanti se publique."
   },
   "roadmap": {
     "eyebrow": "Hoja de ruta",
@@ -93,11 +83,8 @@
     "s2_title": "Lanzamiento de Avanti",
     "s2_body": "Acceso anticipado con un grupo fundador de entusiastas antes de abrir la comunidad al público.",
     "s3_when": "Después",
-    "s3_title": "Meetings integrado",
-    "s3_body": "Los eventos se suman al ecosistema y se conectan con los perfiles y el historial de cada vehículo.",
-    "s4_when": "Futuro",
-    "s4_title": "Nuevos servicios",
-    "s4_body": "Exploramos repuestos con compatibilidad garantizada, diagnóstico asistido y foros por marca y modelo."
+    "s3_title": "Volta y Avanti conectadas",
+    "s3_body": "Una sola cuenta para ambas aplicaciones y el historial de mantenimiento visible en el perfil de cada vehículo."
   },
   "principles": {
     "eyebrow": "Principios",
@@ -105,7 +92,7 @@
     "p1_title": "El auto es el protagonista",
     "p1_body": "Los productos giran en torno al vehículo y su historia, no a la popularidad de quien lo conduce.",
     "p2_title": "Útil desde el primer día",
-    "p2_body": "Cada aplicación debe resolver un problema real por sí sola, incluso sin conexión y sin depender de las demás.",
+    "p2_body": "Cada aplicación debe resolver un problema real por sí sola, incluso sin conexión y sin depender de la otra.",
     "p3_title": "Historial que da valor",
     "p3_body": "Un registro ordenado y verificable facilita mantener el vehículo y lo respalda al momento de venderlo.",
     "p4_title": "Comunidad antes que cifras",

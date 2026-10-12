@@ -8,9 +8,9 @@ Web estática, navegadores actuales de escritorio y móvil. Alojamiento: GitHub 
 
 ## Requisitos
 - R1 Portada con propuesta de valor, llamadas a la acción y tres datos verificables.
-- R2 Productos: Volta (disponible en Google Play, Chile), Avanti y Meetings (en desarrollo), cada uno con descripción, tres puntos clave y estado visible.
+- R2 Productos: Volta (disponible en Google Play, Chile), Avanti (en desarrollo), cada uno con descripción, tres puntos clave y estado visible.
 - R3 Ecosistema: cómo se conectan las aplicaciones, indicando que es la dirección del producto.
-- R4 Hoja de ruta en cuatro etapas (hoy, siguiente, después, futuro).
+- R4 Hoja de ruta en tres etapas (hoy, siguiente, después).
 - R5 Principios de la empresa.
 - R6 Empresa: origen y forma de trabajo.
 - R7 Contacto: centro de soporte y perfil de GitHub.

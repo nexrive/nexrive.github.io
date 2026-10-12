@@ -19,8 +19,8 @@ Hover y foco visible en enlaces, botones y tarjetas; presionado en botones; men�
 
 ## Adaptación
 - Hasta 720 px: una columna y menú desplegable.
-- Hasta 900 px: tarjetas en una columna y línea de tiempo en dos.
-- Desde 900 px: tres tarjetas y cuatro etapas en fila.
+- Hasta 900 px: tarjetas y línea de tiempo en una columna.
+- Desde 900 px: dos tarjetas y tres etapas en fila.
 
 ## Accesibilidad
 Enlace para saltar al contenido, un solo `h1`, regiones con etiqueta, foco visible, tecla Escape para cerrar el menú y `prefers-reduced-motion` respetado.
