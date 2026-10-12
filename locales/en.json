@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "lang": "en",
+    "og_locale": "en_US",
+    "title": "Nexrive - Technology for people who live their cars",
+    "description": "Nexrive builds connected apps for car owners and enthusiasts: Volta for maintenance, Avanti for community and Meetings for events."
+  },
+  "lang": {
+    "alt_code": "es",
+    "alt_label": "Español"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "home": "Nexrive, home",
+    "menu": "Open or close the menu",
+    "nav": "Sections",
+    "footer_nav": "Legal links and language"
+  },
+  "nav": {
+    "products": "Products",
+    "ecosystem": "Ecosystem",
+    "roadmap": "Roadmap",
+    "principles": "Principles",
+    "contact": "Contact"
+  },
+  "status": {
+    "live": "Available",
+    "dev": "In development"
+  },
+  "hero": {
+    "eyebrow": "Automotive ecosystem",
+    "title_a": "Technology for people who",
+    "title_b": "live their cars",
+    "lead": "Nexrive builds apps that connect with each other to follow the whole life of a vehicle: its maintenance, its history, its community and its meetups.",
+    "cta_products": "See products",
+    "cta_volta": "Volta on Google Play",
+    "fact1_value": "3",
+    "fact1_label": "products in a single ecosystem",
+    "fact2_value": "1",
+    "fact2_label": "app already published on Google Play",
+    "fact3_value": "Chile",
+    "fact3_label": "where Nexrive is born and built"
+  },
+  "products": {
+    "eyebrow": "Products",
+    "title": "Three apps, one vehicle",
+    "lead": "Each product solves a specific problem on its own and gains value when used alongside the others.",
+    "volta": {
+      "name": "Nexrive Volta",
+      "tagline": "Your car, always up to date",
+      "body": "The copilot that brings expenses, maintenance, documents and reminders together so driving becomes more predictable.",
+      "f1": "Timely maintenance and document reminders",
+      "f2": "Works without an internet connection",
+      "f3": "A tidy history that backs the value of the vehicle",
+      "link": "Get it on Google Play"
+    },
+    "avanti": {
+      "name": "Nexrive Avanti",
+      "tagline": "The social network where the car is the star",
+      "body": "A place to show builds, document modifications and find people who share the same car culture.",
+      "f1": "A dedicated profile for each vehicle and its modifications",
+      "f2": "A build card ready to share",
+      "f3": "A community organized by styles and interests"
+    },
+    "meetings": {
+      "name": "Nexrive Meetings",
+      "tagline": "Car meets near you",
+      "body": "The simple way to discover, organize and remember car events, from a local meetup to a full show.",
+      "f1": "Events placed on the map",
+      "f2": "Attendance confirmation",
+      "f3": "Photos of the meet in one place"
+    }
+  },
+  "ecosystem": {
+    "eyebrow": "Ecosystem",
+    "title": "Each app feeds the others",
+    "lead": "The Nexrive vision is a single account that gathers what today lives scattered across notebooks, chats and general social networks.",
+    "c1_path": "Volta to Avanti",
+    "c1_body": "Maintenance logged in Volta backs the vehicle profile in the community with a verifiable history.",
+    "c2_path": "Avanti to Meetings",
+    "c2_body": "From a build profile you can call or join a meet with the people who already follow it.",
+    "c3_path": "Meetings to Volta",
+    "c3_body": "What happens at an event returns to the vehicle record: the trip, the kilometers and the photos of the day.",
+    "note": "These connections describe the product direction and will go live as Avanti and Meetings are released."
+  },
+  "roadmap": {
+    "eyebrow": "Roadmap",
+    "title": "Where we are heading",
+    "s1_when": "Today",
+    "s1_title": "Volta in production",
+    "s1_body": "The vehicle management app is published on Google Play for Chile and receives continuous improvements.",
+    "s2_when": "Next",
+    "s2_title": "Avanti launch",
+    "s2_body": "Early access with a founding group of enthusiasts before opening the community to the public.",
+    "s3_when": "Later",
+    "s3_title": "Meetings integrated",
+    "s3_body": "Events join the ecosystem and connect with the profiles and history of each vehicle.",
+    "s4_when": "Future",
+    "s4_title": "New services",
+    "s4_body": "We are exploring parts with guaranteed fitment, assisted diagnostics and forums by make and model."
+  },
+  "principles": {
+    "eyebrow": "Principles",
+    "title": "How we build",
+    "p1_title": "The car is the star",
+    "p1_body": "Our products revolve around the vehicle and its story, not the popularity of whoever drives it.",
+    "p2_title": "Useful from day one",
+    "p2_body": "Each app must solve a real problem on its own, even offline and without depending on the others.",
+    "p3_title": "History that adds value",
+    "p3_body": "A tidy, verifiable record makes the vehicle easier to maintain and backs it when it is time to sell.",
+    "p4_title": "Community before numbers",
+    "p4_body": "We prefer a small group of passionate people over a large number of unused downloads."
+  },
+  "company": {
+    "eyebrow": "Company",
+    "title": "An independent automotive software studio",
+    "p1": "Nexrive is a Chilean project founded by Giulianno Inostroza. It designs, develops and operates its own products from end to end.",
+    "p2": "We work with cross-platform technology and cloud services so a small team can deliver careful, secure and sustainable apps."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk",
+    "lead": "For support, partnerships with workshops or communities, and questions about the products, reach us through the support center.",
+    "cta_support": "Go to the support center",
+    "cta_github": "Nexrive on GitHub"
+  },
+  "footer": {
+    "rights": "© 2026 Nexrive. All rights reserved.",
+    "privacy": "Volta privacy",
+    "terms": "Volta terms"
+  },
+  "notfound": {
+    "title": "Page not found - Nexrive",
+    "heading": "This page does not exist",
+    "body": "The link may be incomplete or the page may have moved.",
+    "cta": "Back to home"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "nexrive-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio corporativo estático de Nexrive",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs && node scripts/check.mjs",
+    "serve": "python3 -m http.server 4173"
+  }
+}

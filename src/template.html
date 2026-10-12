@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="{{meta.lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>{{meta.title}}</title>
+  <meta name="description" content="{{meta.description}}">
+  <meta name="theme-color" content="#0D0D10">
+  <link rel="canonical" href="{{@canonical}}">
+  <link rel="alternate" hreflang="es" href="{{@url_es}}">
+  <link rel="alternate" hreflang="en" href="{{@url_en}}">
+  <link rel="alternate" hreflang="x-default" href="{{@url_es}}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Nexrive">
+  <meta property="og:title" content="{{meta.title}}">
+  <meta property="og:description" content="{{meta.description}}">
+  <meta property="og:url" content="{{@canonical}}">
+  <meta property="og:locale" content="{{meta.og_locale}}">
+  <link rel="icon" href="{{@root}}assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="{{@root}}assets/styles.css">
+  <script src="{{@root}}assets/main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">{{a11y.skip}}</a>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="{{@home}}" aria-label="{{a11y.home}}">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect width="32" height="32" rx="8" fill="#413770"/><path d="M9.5 23V9l13 14V9" fill="none" stroke="#F4F3F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="brand-name">Nexrive</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="sr-only">{{a11y.menu}}</span>
+      </button>
+      <nav id="menu" class="nav" aria-label="{{a11y.nav}}">
+        <a href="#productos">{{nav.products}}</a>
+        <a href="#ecosistema">{{nav.ecosystem}}</a>
+        <a href="#ruta">{{nav.roadmap}}</a>
+        <a href="#principios">{{nav.principles}}</a>
+        <a href="#contacto">{{nav.contact}}</a>
+        <a class="lang" href="{{@alt_href}}" lang="{{lang.alt_code}}" hreflang="{{lang.alt_code}}">{{lang.alt_label}}</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">{{hero.eyebrow}}</p>
+        <h1>{{hero.title_a}} <span class="accent">{{hero.title_b}}</span></h1>
+        <p class="lead">{{hero.lead}}</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#productos">{{hero.cta_products}}</a>
+          <a class="btn btn-ghost" href="https://play.google.com/store/apps/details?id=com.nexrive.volta" rel="noopener">{{hero.cta_volta}}</a>
+        </div>
+        <ul class="facts">
+          <li><strong>{{hero.fact1_value}}</strong><span>{{hero.fact1_label}}</span></li>
+          <li><strong>{{hero.fact2_value}}</strong><span>{{hero.fact2_label}}</span></li>
+          <li><strong>{{hero.fact3_value}}</strong><span>{{hero.fact3_label}}</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="productos" class="section">
+      <div class="wrap">
+        <p class="eyebrow">{{products.eyebrow}}</p>
+        <h2>{{products.title}}</h2>
+        <p class="section-lead">{{products.lead}}</p>
+        <div class="cards">
+          <article class="card">
+            <div class="card-head">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 16a8 8 0 1 1 16 0" /><path d="M12 16l4-5" /><path d="M3 20h18" /></svg>
+              <span class="badge badge-live">{{status.live}}</span>
+            </div>
+            <h3>{{products.volta.name}}</h3>
+            <p class="tagline">{{products.volta.tagline}}</p>
+            <p>{{products.volta.body}}</p>
+            <ul class="ticks">
+              <li>{{products.volta.f1}}</li>
+              <li>{{products.volta.f2}}</li>
+              <li>{{products.volta.f3}}</li>
+            </ul>
+            <a class="link" href="https://play.google.com/store/apps/details?id=com.nexrive.volta" rel="noopener">{{products.volta.link}}</a>
+          </article>
+          <article class="card">
+            <div class="card-head">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3.2" /><path d="M3 20c0-3.3 2.7-6 6-6s6 2.700 6 6" /><path d="M16 5.200a3.200 3.200 0 0 1 0 5.600" /><path d="M17.500 14.400c2.100.800 3.500 2.900 3.500 5.600" /></svg>
+              <span class="badge badge-dev">{{status.dev}}</span>
+            </div>
+            <h3>{{products.avanti.name}}</h3>
+            <p class="tagline">{{products.avanti.tagline}}</p>
+            <p>{{products.avanti.body}}</p>
+            <ul class="ticks">
+              <li>{{products.avanti.f1}}</li>
+              <li>{{products.avanti.f2}}</li>
+              <li>{{products.avanti.f3}}</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="card-head">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 21s7-6.200 7-11.500a7 7 0 1 0-14 0C5 14.800 12 21 12 21z" /><circle cx="12" cy="9.500" r="2.500" /></svg>
+              <span class="badge badge-dev">{{status.dev}}</span>
+            </div>
+            <h3>{{products.meetings.name}}</h3>
+            <p class="tagline">{{products.meetings.tagline}}</p>
+            <p>{{products.meetings.body}}</p>
+            <ul class="ticks">
+              <li>{{products.meetings.f1}}</li>
+              <li>{{products.meetings.f2}}</li>
+              <li>{{products.meetings.f3}}</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="ecosistema" class="section section-alt">
+      <div class="wrap">
+        <p class="eyebrow">{{ecosystem.eyebrow}}</p>
+        <h2>{{ecosystem.title}}</h2>
+        <p class="section-lead">{{ecosystem.lead}}</p>
+        <ol class="flow">
+          <li><span class="flow-path">{{ecosystem.c1_path}}</span><p>{{ecosystem.c1_body}}</p></li>
+          <li><span class="flow-path">{{ecosystem.c2_path}}</span><p>{{ecosystem.c2_body}}</p></li>
+          <li><span class="flow-path">{{ecosystem.c3_path}}</span><p>{{ecosystem.c3_body}}</p></li>
+        </ol>
+        <p class="note">{{ecosystem.note}}</p>
+      </div>
+    </section>
+
+    <section id="ruta" class="section">
+      <div class="wrap">
+        <p class="eyebrow">{{roadmap.eyebrow}}</p>
+        <h2>{{roadmap.title}}</h2>
+        <ol class="timeline">
+          <li><span class="when">{{roadmap.s1_when}}</span><h3>{{roadmap.s1_title}}</h3><p>{{roadmap.s1_body}}</p></li>
+          <li><span class="when">{{roadmap.s2_when}}</span><h3>{{roadmap.s2_title}}</h3><p>{{roadmap.s2_body}}</p></li>
+          <li><span class="when">{{roadmap.s3_when}}</span><h3>{{roadmap.s3_title}}</h3><p>{{roadmap.s3_body}}</p></li>
+          <li><span class="when">{{roadmap.s4_when}}</span><h3>{{roadmap.s4_title}}</h3><p>{{roadmap.s4_body}}</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="principios" class="section section-alt">
+      <div class="wrap">
+        <p class="eyebrow">{{principles.eyebrow}}</p>
+        <h2>{{principles.title}}</h2>
+        <div class="grid">
+          <div class="tile"><h3>{{principles.p1_title}}</h3><p>{{principles.p1_body}}</p></div>
+          <div class="tile"><h3>{{principles.p2_title}}</h3><p>{{principles.p2_body}}</p></div>
+          <div class="tile"><h3>{{principles.p3_title}}</h3><p>{{principles.p3_body}}</p></div>
+          <div class="tile"><h3>{{principles.p4_title}}</h3><p>{{principles.p4_body}}</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="empresa" class="section">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">{{company.eyebrow}}</p>
+          <h2>{{company.title}}</h2>
+        </div>
+        <div>
+          <p>{{company.p1}}</p>
+          <p>{{company.p2}}</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section section-alt">
+      <div class="wrap contact">
+        <p class="eyebrow">{{contact.eyebrow}}</p>
+        <h2>{{contact.title}}</h2>
+        <p class="section-lead">{{contact.lead}}</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://nexrive-volta.web.app/support/" rel="noopener">{{contact.cta_support}}</a>
+          <a class="btn btn-ghost" href="https://github.com/nexrive" rel="noopener">{{contact.cta_github}}</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p>{{footer.rights}}</p>
+      <nav aria-label="{{a11y.footer_nav}}">
+        <a href="https://nexrive-volta.web.app/privacy/" rel="noopener">{{footer.privacy}}</a>
+        <a href="https://nexrive-volta.web.app/terms/" rel="noopener">{{footer.terms}}</a>
+        <a href="{{@alt_href}}" lang="{{lang.alt_code}}" hreflang="{{lang.alt_code}}">{{lang.alt_label}}</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
