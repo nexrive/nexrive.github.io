@@ -17,4 +17,5 @@ Sitio corporativo estático de Nexrive (empresa y productos Volta y Avanti), en 
 - El repo es público: nada de estrategia interna, credenciales ni datos personales.
 - Solo afirmaciones verificables sobre los productos (estado real, sin cifras inventadas).
 - Sin emojis ni punto medio como separador; iconos en SVG propio.
+- Sin barra de color en el borde izquierdo de tarjetas o bloques.
 - `npm run check` debe pasar antes de cada commit, y los archivos generados van en el mismo commit.
